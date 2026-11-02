@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pandas, sklearn; print\\(pandas.__version__, sklearn.__version__\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import pandas; print\\('pandas', pandas.__version__\\)\")"
+    ]
+  }
+}
